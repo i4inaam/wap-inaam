@@ -11,7 +11,7 @@ img{
 .imgSadWidth{
     width: 400px;
 }
-h2{
+div h2{
     text-transform: capitalize;
 }
 h1{
