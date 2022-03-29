@@ -1,0 +1,19 @@
+body{
+    background-color: #41b3a3;
+    color: azure;
+}
+img{
+    height: 300px;
+}
+.imgHappyWidth{
+    width: 300px;
+}
+.imgSadWidth{
+    width: 400px;
+}
+h2{
+    text-transform: capitalize;
+}
+h1{
+    text-transform: capitalize;
+}
