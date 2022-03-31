@@ -74,6 +74,10 @@ button:hover{
     padding-right: 80px;
     padding-left: 20px;
 }
+li{
+    border-bottom: 3px solid green;
+    line-height: 35px;
+}
 #sidebar a{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 19px;
