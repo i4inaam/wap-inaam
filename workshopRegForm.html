@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,173 @@
     <title>Workshop Registration</title>
     <link rel="stylesheet" href="CssStyles/workshopForm.css" type="text/css">
 </head>
+
 <body>
-    
+    <div id="main">
+        <div id="header" class="tab">
+            <h2> Workshop Registration</h2>
+        </div>
+
+        <p id="info">Register now while space are available!</p>
+
+        <form action="#">
+            <div id="middle">
+
+                <div id="mid1">
+                    <div class="mid1Label">
+                        <label class="myLabel" for="fName"> First Name: </label>
+                    </div>
+                    <div class="mid1Label">
+                        <label class="myLabel" for="lName"> Last Name: </label>
+                    </div>
+                    <div class="mid1Label">
+                        <label class="myLabel" for="password"> Password: </label>
+                    </div>
+                    <div class="mid1Label">
+                        <label class="myLabel" for="comapny">  Company: </label>
+                    </div>
+                    <div id="adrs">
+                        <label  class="myLabel"for="address"> Address: </label>
+                    </div>
+                    <div class="mid1Label">
+                        <label class="myLabel" for="city"> City: </label> 
+                    </div>
+                    <div class="mid1Label">
+                        <label class="myLabel" for="state"> State: </label>
+                    </div>
+                    <div class="mid1Label">
+                        <label  class="myLabel"for="country"> Country: </label>
+                    </div>
+                    <div class="mid1Label">
+                        <label class="myLabel" for="email"> Email: </label>
+                    </div>
+                    <div class="mid1Label">
+                        <label class="myLabel" for="phone"> Phone No: </label>
+                    </div>
+                </div>
+
+                <div id="mid2" class="ui">
+                    <div>
+                        <input class="myInput" required autofocus type="text" id="fName" name="First Name" placeholder="Enter your first name">
+                    </div>
+
+                    <div>
+                        <input class="myInput" required type="text" id="lName" name="Last Name" placeholder="Enter your last name">
+                    </div>
+
+                    <div>
+                        <input class="myInput" required type="password" id="password" name="Password">
+                    </div>
+
+                    <div>
+                        <input class="myInput" required type="text" id="comapny" name="Company">
+                    </div>
+
+                    <div>
+                        <textarea name="Address" id="address" cols="30" rows="6" placeholder="Enter your address here"></textarea>
+                    </div>
+
+                    <div>
+                        <input class="myInput" type="text" id="city" name="City" value="Fairfield">
+                    </div>
+
+                    <div>
+                        <select name="State" id="state">
+                            <option value="-select-" selected>-select-</option>
+                            <option value="Alaska">Alaska</option>
+                            <option value="California">California</option>
+                            <option value="Florida">Florida</option>
+                            <option value="Iowa">Iowa</option>
+                            <option value="New York">New York</option>
+                            <option value="Ohio">Ohio</option>
+                            <option value="Texas">Texas</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <select name="Country" id="country">
+                            <option value="-select-" selected>-select-</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Canada">Canada</option>
+                            <option value="France">France</option>
+                            <option value="Iran">Iran</option>
+                            <option value="Pakistan">Pakistan</option>
+                            <option value="Spain">Spain</option>
+                            <option value="Turkey">Turkey</option>
+                            <option value="USA">USA</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <input class="myInput" type="text" id="email" name="Email" placeholder="user123@example.com">
+                    </div>
+
+                    <div>
+                        <input class="myInput" type="text" id="phone" name="Phone No">
+                    </div>
+                </div>
+                <div id="mid3">
+                    <div class="mid1Label">
+                        <p class="p2">Lunch</p>
+                    </div>
+                    <div class="mid1Label">
+                        <label class="myLabel" for="meal"> Meal Preference: </label>
+                    </div>
+                    <div class="mid1Label" class="p2">
+                        <p>Payment details</p>
+                    </div>
+                    <div class="mid1Label">
+                        <label class="myLabel" for="paymentMode"> Payment Mode:  </label>
+                    </div>
+                    <div class="mid1Label">
+                        <label class="myLabel" for="cheque"> DD/Cheque No:  </label>
+                    </div>
+                    <div class="mid1Label">
+                        <label class="myLabel" for="banlName"> Drawn on (Bank Name): </label>
+                    </div>
+                    <div class="mid1Label">
+                        <label class="myLabel" for="payable"> Payable At:  </label>
+                    </div>
+                </div>
+
+                <div id="mid4" class="ui">
+                    <div id="mid4meal">
+                        <select name="Meal Preference" id="meal">
+                            <option value="Vagetarian">Vagetarian</option>
+                            <option value="Non Vagetarian">Non Vagetarian</option>
+                            <option value="Meat">Meat</option>
+                            <option value="Sweet">Sweet</option>
+                        </select>
+                    </div>
+                    <div id="checkBox">
+                            <label for="cash" class="ab"><input class="myCheckbox" type="checkbox" id="cash"><span class="myCheckBoxText"> Cash </span></label>
+                            <label for="cheque" class="ab"><input class="myCheckbox" type="checkbox" id="cheque"><span class="myCheckBoxText"> Cheque </span></label>
+                            <label for="ddraft" class="ab"><input class="myCheckbox" type="checkbox" id="ddraft"><span class="myCheckBoxText"> Deman Draft </span></label>
+                        
+                    </div>
+                    <div>
+                        <input class="myInput" required type="text" id="cheque" name="Cheque No">
+                    </div>
+                    
+                    <div>
+                        <input class="myInput" required type="text" id="banlName" name="Bnak Name" >
+                    </div>
+                    
+                    <div>
+                        <input class="myInput" required type="text" id="payable" name="Payable At" >
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <div id="footer">
+            <button>Submit</button>
+            <button>Reset</button>
+
+        </div>
+    </div>
+
+
 </body>
+
 </html>

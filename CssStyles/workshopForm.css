@@ -1,0 +1,115 @@
+
+body{
+    background: linear-gradient(#3d8e97, #ced7d8);
+    color: rgba(244, 247, 247, 0.7);
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-color: #5e9da4;
+    border: 2px solid rgb(1, 1, 1);
+    color: rgb(5, 5, 5);
+    height: auto;
+}
+h2{
+    padding-left: 20px;
+}
+p{
+    color: rgb(10, 8, 8);
+    text-decoration: underline;
+    font-size: 18px;
+}
+#info{
+    padding-left: 20px;
+}
+.myLabel{
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(4, 1, 1);
+}
+.myInput{
+    border-radius: 7px;
+    height: 30px;
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+textarea{
+    border-radius: 7px;
+    resize: none;
+    width: 250px;
+}
+select{
+    border-radius: 7px;
+    height: 35px;
+    width: 255px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#checkBox{
+    display: block;
+}
+.myCheckBoxText{
+    color: rgb(4, 1, 1);
+    padding-left: 8px;
+}
+.myCheckbox{
+    height: 20px;
+    width: 20px;
+}
+#middle{
+    padding: 0px;
+    width: 95%;
+    margin: 0px auto;
+    display: flex;
+}
+#mid1{
+    margin-left: 50px;
+}
+#mid3{
+    margin-left: 30px;
+}
+.tab{
+    height: 35px;
+    width: 100%;
+}
+
+
+
+.ab{
+    display: block;
+}
+.ui{
+    margin-left: 100px;
+}
+
+#footer{
+    background: linear-gradient(#ced7d8, #3d8e97);
+   padding:20px 0px 20px 650px;
+
+}
+button{
+    background-color: rgb(101, 152, 160);
+    color: rgb(1, 4, 7);
+    border-radius: 10px;
+    width: 80px;
+    height: 45px;
+    font-size: 0.45cm;
+}
+button:hover{
+    background-color: rgb(67, 141, 132);
+}
+.mid1Label{
+    margin-top: 8px;
+    padding-bottom: 18px;
+}
+#adrs{
+    margin-bottom: 70px;
+}
+#mid4meal{
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+#mid4{
+    padding-right: 200px;
+}
