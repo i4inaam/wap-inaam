@@ -5,8 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript Intro</title>
+    <link rel="stylesheet" href="CssStyles/javaIntro.css" type="text/css">
+    <script src="JavaScript/javaIntro.js"></script>
 </head>
 <body>
+    <div id="main">
+        <div>
+            <p>
+                Click to see the solution 1
+            </p>
+            <p id="q1"></p>
+            <button onclick='sum(new Array(15,20,25,30,12,7,35,7))'>Solution 1</button>
+            <pre>
+                function sum(numArr) {
+                let res = numArr.filter(n => n > 20).reduce((a,b) => a + b);
+                document.getElementById("q1").innerHTML= 
+                "Input is: ["+ numArr + "] " + 
+                "Output is: " + res;  }
+            </pre>
+        </div>
+        <div>
+            <p>
+                Click to see the solution 2
+            </p>
+            <p id="q2"></p>
+            <button onclick='getNewArray(new Array("ali", "inaam", "suleman", "muhammad", "qwerty"))'> Solution 2</button>
+            <pre>
+                let getNewArray = function (names)  {
+                let res2 = names.filter(s => s.length > 4 && s.includes('a'));
+                document.getElementById("q2").innerHTML=
+                "Input is: ["+ names + "] " + 
+                "Output is: [" + res2 + "]";         }
+            </pre>
+        </div>
+    </div>
+    
     
 </body>
 </html>
