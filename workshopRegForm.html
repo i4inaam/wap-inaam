@@ -22,13 +22,13 @@
 
                 <div id="mid1">
                     <div class="mid1Label">
-                        <label class="myLabel" for="fName"> First Name: </label>
+                        <label class="myLabel" for="fName"> First Name: <span>*</span></label>
                     </div>
                     <div class="mid1Label">
-                        <label class="myLabel" for="lName"> Last Name: </label>
+                        <label class="myLabel" for="lName"> Last Name: <span>*</span> </label>
                     </div>
                     <div class="mid1Label">
-                        <label class="myLabel" for="password"> Password: </label>
+                        <label class="myLabel" for="password"> Password: <span>*</span> </label>
                     </div>
                     <div class="mid1Label">
                         <label class="myLabel" for="comapny">  Company: </label>
@@ -46,7 +46,7 @@
                         <label  class="myLabel"for="country"> Country: </label>
                     </div>
                     <div class="mid1Label">
-                        <label class="myLabel" for="email"> Email: </label>
+                        <label class="myLabel" for="email"> Email: <span>*</span> </label>
                     </div>
                     <div class="mid1Label">
                         <label class="myLabel" for="phone"> Phone No: </label>
@@ -55,11 +55,11 @@
 
                 <div id="mid2" class="ui">
                     <div>
-                        <input class="myInput" required autofocus type="text" id="fName" name="First Name" placeholder="Enter your first name">
+                        <input class="myInput" required autofocus type="text" id="fName" name="First Name" placeholder="Enter your first name" pattern="[A-Za-z]{0,10}" title="No more than 10 character">
                     </div>
 
                     <div>
-                        <input class="myInput" required type="text" id="lName" name="Last Name" placeholder="Enter your last name">
+                        <input class="myInput" required type="text" id="lName" name="Last Name" placeholder="Enter your last name" pattern="[A-Za-z]{0,10}" title="No more than 10 character">
                     </div>
 
                     <div>
@@ -67,7 +67,7 @@
                     </div>
 
                     <div>
-                        <input class="myInput" required type="text" id="comapny" name="Company">
+                        <input class="myInput"  type="text" id="comapny" name="Company">
                     </div>
 
                     <div>
@@ -106,7 +106,7 @@
                     </div>
 
                     <div>
-                        <input class="myInput" type="text" id="email" name="Email" placeholder="user123@example.com">
+                        <input required class="myInput" type="text" id="email" name="Email" placeholder="user123@example.com" pattern="[a-z0-9]{0,}[@]{1}[a-z]{0,8}[.]{1}[a-z]{3}" title="follow this: user123@example.com">
                     </div>
 
                     <div>
@@ -153,25 +153,27 @@
                         
                     </div>
                     <div>
-                        <input class="myInput" required type="text" id="cheque" name="Cheque No">
+                        <input class="myInput"  type="text" id="cheque" name="Cheque No">
                     </div>
                     
                     <div>
-                        <input class="myInput" required type="text" id="banlName" name="Bnak Name" >
+                        <input class="myInput"  type="text" id="banlName" name="Bnak Name" >
                     </div>
                     
                     <div>
-                        <input class="myInput" required type="text" id="payable" name="Payable At" >
+                        <input class="myInput"  type="text" id="payable" name="Payable At" >
                     </div>
                 </div>
             </div>
+
+            <div id="footer">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+    
+            </div>
         </form>
 
-        <div id="footer">
-            <button>Submit</button>
-            <button>Reset</button>
-
-        </div>
+        
     </div>
 
 
